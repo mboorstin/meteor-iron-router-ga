@@ -1,5 +1,5 @@
 Package.describe({
-    name: "reywood:iron-router-ga",
+    name: "boorstin:iron-router-ga",
     summary: "Google analytics (universal edition) with some Iron Router sugar for tracking page views.",
     version: "0.5.3",
     git: "https://github.com/reywood/meteor-iron-router-ga.git"
@@ -14,4 +14,6 @@ Package.onUse(function(api) {
         "lib/ga.js",
         "lib/router.js"
     ], "client");
+
+    api.export("IronRouterGA")
 });
